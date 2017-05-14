@@ -16,6 +16,11 @@
 		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		41D632F2786647F88812001B /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CE192C8CC04E7FA117564A /* CDVFile.m */; };
+		BF0F9CFA080A4E0C8453A336 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = B57BDE5EE1E846D2B0A6C93D /* CDVLocalFilesystem.m */; };
+		683F17677A75486D88B6D567 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3876D4C9D99F417AAC492E8D /* CDVAssetLibraryFilesystem.m */; };
+		D53689ED0E854913B86CB89A /* CDVSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B47C8052334D1AA3E14B17 /* CDVSound.m */; };
+		2B1F803CEB45464D84D77E74 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DFE402B6DC4369A81EA554 /* CDVInAppBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,16 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "WebAppPack/config.xml"; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		13CE192C8CC04E7FA117564A /* CDVFile.m */ = {isa = PBXFileReference; name = "CDVFile.m"; path = "cordova-plugin-file/CDVFile.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B57BDE5EE1E846D2B0A6C93D /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; name = "CDVLocalFilesystem.m"; path = "cordova-plugin-file/CDVLocalFilesystem.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		3876D4C9D99F417AAC492E8D /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; name = "CDVAssetLibraryFilesystem.m"; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		0CB2F4ACF12643C8BD4B5711 /* CDVFile.h */ = {isa = PBXFileReference; name = "CDVFile.h"; path = "cordova-plugin-file/CDVFile.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		40FFAADBC20B4BAC8A47AB12 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; name = "CDVLocalFilesystem.h"; path = "cordova-plugin-file/CDVLocalFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		49C4A32D7E0445728CF257C5 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; name = "CDVAssetLibraryFilesystem.h"; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		53B47C8052334D1AA3E14B17 /* CDVSound.m */ = {isa = PBXFileReference; name = "CDVSound.m"; path = "cordova-plugin-media/CDVSound.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		3FE2DF8A840043B2B80B024D /* CDVSound.h */ = {isa = PBXFileReference; name = "CDVSound.h"; path = "cordova-plugin-media/CDVSound.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F6DFE402B6DC4369A81EA554 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		8E7CE3F7397041848A6343A4 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +174,16 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				13CE192C8CC04E7FA117564A /* CDVFile.m */,
+				B57BDE5EE1E846D2B0A6C93D /* CDVLocalFilesystem.m */,
+				3876D4C9D99F417AAC492E8D /* CDVAssetLibraryFilesystem.m */,
+				0CB2F4ACF12643C8BD4B5711 /* CDVFile.h */,
+				40FFAADBC20B4BAC8A47AB12 /* CDVLocalFilesystem.h */,
+				49C4A32D7E0445728CF257C5 /* CDVAssetLibraryFilesystem.h */,
+				53B47C8052334D1AA3E14B17 /* CDVSound.m */,
+				3FE2DF8A840043B2B80B024D /* CDVSound.h */,
+				F6DFE402B6DC4369A81EA554 /* CDVInAppBrowser.m */,
+				8E7CE3F7397041848A6343A4 /* CDVInAppBrowser.h */,
 			);
 			name = Plugins;
 			path = "WebAppPack/Plugins";
@@ -271,6 +296,11 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				41D632F2786647F88812001B /* CDVFile.m in Sources */,
+				BF0F9CFA080A4E0C8453A336 /* CDVLocalFilesystem.m in Sources */,
+				683F17677A75486D88B6D567 /* CDVAssetLibraryFilesystem.m in Sources */,
+				D53689ED0E854913B86CB89A /* CDVSound.m in Sources */,
+				2B1F803CEB45464D84D77E74 /* CDVInAppBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
