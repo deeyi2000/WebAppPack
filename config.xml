@@ -7,7 +7,7 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
-    <content src="http://app.dzyxds.com/Home/Index/" />
+    <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -16,6 +16,15 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+
+    <allow-navigation href="http://*/*" />  
+    <allow-navigation href="https://*/*" />  
+    <allow-navigation href="data:*" />  
+   
+    <access origin="*" />  
+    <access origin="http://*/*" />  
+    <access origin="https://*/*" />
+
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
