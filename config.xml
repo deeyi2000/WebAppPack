@@ -16,15 +16,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-
-    <allow-navigation href="http://*/*" />  
-    <allow-navigation href="https://*/*" />  
-    <allow-navigation href="data:*" />  
-   
-    <access origin="*" />  
-    <access origin="http://*/*" />  
-    <access origin="https://*/*" />
-
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
@@ -34,4 +25,12 @@
     </platform>
     <engine name="ios" spec="~4.4.0" />
     <engine name="android" spec="~6.2.3" />
+
+    <allow-navigation href="http://*/*" />  
+    <allow-navigation href="https://*/*" />  
+    <allow-navigation href="data:*" />  
+   
+    <access origin="*" />  
+    <access origin="http://*/*" />  
+    <access origin="https://*/*" />
 </widget>
