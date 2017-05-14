@@ -13,6 +13,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <allow-navigation href="http:*" />
+    <allow-navigation href="https:*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
