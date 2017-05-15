@@ -15,6 +15,9 @@
         },
         "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "com.lanhnet.WebAppPack"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.lanhnet.WebAppPack"
         }
     },
     "dependent_plugins": {

@@ -45,6 +45,11 @@
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <input type="file" />
-    </body> 
+        <input type="file">
+        <button onclick="goto()">test</button>
+    </body>
+    <script>
+    //cordova.InAppBrowser.open('http://app.dzyxds.com/Home/Index/', '_blank', 'location=yes');
+    function goto() {window.location.href="http://app.dzyxds.com/Home/Index/";}
+    </script>
 </html>
